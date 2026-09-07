@@ -3,30 +3,30 @@ public  class Main {
 
         System.out.println ("\n\tЗадание#1\n");
 
-    int age=22;
+    int age=18;
     if (age >= 18) {
         System.out.println(" Он совершеннолетний" );
     }
-    if (age < 18) {
+    else  {
         System.out.println( "Он не достиг совершеннолетия, нужно немного подождать");
     }
 
     System.out.println ("\n\tЗадание#2\n");
 
-    int temp =6;
-    if (temp <5){
+    int temp =5;
+    if (temp <=5){
         System.out.println("На улице, " +temp+   " градуса, "+ "холодно, нужно надеть шапку");
     }
-    if (temp >5) {
+    else  {
         System.out.println("На улице, " +temp+ " градуса, "+ " тепло,можно идти без шапки");
     }
 
         System.out.println ("\n\tЗадание#3\n");
 
-    int speed=59;
-    if (speed>60){
+    int speed=60;
+    if (speed >=60){
         System.out.println("Если скорость "+speed+", то"+" придется заплатить штраф");}
-    if (speed<60){
+    else {
         System.out.println("Если скорость "+speed+", то "+" можно ехать спокойно");
     }
 
@@ -81,14 +81,15 @@ public  class Main {
 
         System.out.println ("\n\tЗадание#7\n");
 
-    int one=1; //15
-    int two=2; //10
+    int one=5; //15
+    int two=8; //10
     int tree=3; //2
-    if (one > two && one > tree){
+    if (one >= two && one > tree){
         System.out.println("Наибольшее число: " + one);}
-    else if (two > one && two> tree) {
+    else if (two >= one && two> tree) {
         System.out.println("Наибольшее число: " + two);}
     else {
         System.out.println("Наибольшее число: " + tree);
     }
+
     }}
